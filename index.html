@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark">
+    
+    <div class="container">
+        <div class="row min-vh-100">   
+           <div class="col-12 px-md-5 py-3">
+                 <div class="card pb-2">
+                         <form id="process">
+
+                            <div class="card-header d-flex justify-content-between align-items-center">
+
+                                <div class="">
+                                    <h2 class="mb-0 fw-bold">K Z Y</h2>
+                                  <div>GOLDSMIT</div>
+                                </div>
+
+                                <div class="">
+                                    <div class="mt-0 pt-3">
+                                    <p class="text-center"> ယနေ့ရွှေစျေးနှုန်း </p>
+                                    </div>
+                                    <input type="number" class="form-control text-end" id="data_one" required placeholder="ရိုက်ထည့်ပါ" >
+                                    <p class="text-end mb-0 text-design  fw-bold">ရက်စွဲ။ &nbsp;&nbsp; <span id="today_date"> </span> </p>
+                                </div>
+        
+                            </div>
+
+                            <div class="d-flex phone justify-content-end  justify-content-md-between my-3 px-3" style="padding-bottom:15px ;" >
+
+                                <div class="align-items-center">
+                                    <label for="">ပစ္စည်းအမျိုးအမည်</label>
+                                    <input type="text" id="text1" required   placeholder="ရိုက်ထည့်ပါ" style="border: 1px solid gray;" class="textbox px-3">
+                                </div>
+
+                                <div class="align-items-center">
+                                      <label for="" class="align-items-center">ဝယ်ယူ သူအမည် &nbsp;&nbsp;</label>
+                                      <input type="text" id="text2" required  placeholder="ရိုက်ထည့်ပါ"  style="border: 1px solid gray;" class="textbox px-3">
+                                </div>
+
+                            </div>
+
+                            <div class="border border-success shadow rounded m-3">
+
+                                 <div class="text-center">
+                                       <div class="card-header">အလေးချိန်</div>
+                                 </div>
+
+                                 <div class="input-group px-1">
+                            
+                                       <div class="card-body d-flex  justify-content-between "  >
+                                
+                                             <div class="">
+
+                                                 <label for="">ကျပ်</label>
+                                                 <input type="number" placeholder="0" id="data_two" required  class="inputwidth" >
+    
+                                             </div>
+
+                                             <div class="">
+
+                                                 <label for="">ပဲ</label>
+                                                 <input type="number" placeholder="0" id="data_three" required  class="inputwidth" >
+      
+                                             </div>
+
+                                             <div class="">
+
+                                               <label for="">ရွေး</label>
+                                               <input type="number" placeholder="0" id="data_four" required  class="inputwidth" >
+      
+                                             </div>
+ 
+                                        </div>
+                                 </div>
+
+                                 <div class="d-flex justify-content-end ‌align-items-center pr-3 ">
+
+                                        <p class="w-100  text-center bg-light " style="margin-top: auto;">
+                                            ကျသင့်ငွေ
+                                        </p>
+                                       
+                                        <p class="bg-whitef w-50 text-end " id="result_one" style="margin-top: auto;">0.00 <span class="pr-3" ></span>ကျပ်</p>
+                          
+                                </div>
+
+                            </div>
+
+                            <div class="border border-success rounded m-3">
+
+                                <div class="text-center">
+                                    <div class="card-header">အလျော့တွက် </div>
+                                </div>
+
+                                <div class="input-group px-1">
+                            
+                                     <div class="card-body d-flex  justify-content-between "  >
+                                
+                                        <div class="">
+                                                <label for="">ကျပ်</label>
+                                                <input type="number" placeholder="0" id="data_five" required  class="inputwidth" >
+    
+                                        </div>
+
+                                        <div class="">
+
+                                            <label for="">ပဲ</label>
+                                            <input type="number" placeholder="0" id="data_six" required  class="inputwidth" >
+      
+                                        </div>
+
+                                        <div class="">
+
+                                             <label for="">ရွေး</label>
+                                             <input type="number" placeholder="0" id="data_seven" required  class="inputwidth" >
+      
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="d-flex justify-content-end ‌align-items-center pr-3 ">
+
+                                        <p class="w-100  text-center bg-light " style="margin-top: auto;">
+                                            ကျသင့်ငွေ
+                                        </p>
+                            
+                                        <p class="bg-whitef w-50 text-end " id="result_two" style="margin-top: auto;">0.00 <span class="pr-3" ></span>ကျပ်</p>
+                          
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex justify-content-end m-3 pr-3">
+                                <div class="input-group-prepend w-100 text-center bg-light ">
+                                    လက်ခ
+                                </div>
+
+                                <input type="number"required id="data_eight" placeholder="000"  style="text-align: right;border: 1px solid gray;" >
+
+                                 <span>ကျပ်</span>
+                            </div>
+
+                            <div class="d-flex justify-content-end ‌align-items-center pr-3 m-3 mb-0">
+
+                                 <p class="w-100  text-center bg-light " style="margin-top: auto;">
+                                     စုစုပေါင်းကျသင့်ငွေ
+                                </p>
+                                <button class="btn btn-primary mx-3" style="width: 85px;">
+                                    Register
+                                </button>
+                                <p class="bg-whitef w-50 text-end fw-bold border  "  id="final_result">0.00 <span class="fw-light"></span>ကျပ်</p>
+                           
+                            </div>
+
+                      
+                         </form>
+                        <div class="d-flex ">
+                            <button class="btn btn-primary mx-3 " style="width: 75px;" onclick="refresh()" >
+                                Save
+                            </button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                           History
+                            </button>
+
+
+                            <!-- Modal -->
+                            <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header d-flex justify-content-between align-items-center">
+                                        <div class="" >
+                                            <h5 class="modal-title" id="exampleModalLabel">L O G O</h5>
+                                            <div>GoldSmith</div>
+                                        </div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid history-Container">
+                                                <table class="history">
+                                                    <thead class="text-center ">
+                                                    <tr>
+                                                        <td rowspan="2">နေ့စွဲ</td>
+                                                        <td rowspan="2">ရွှေဈေးနှုန်း</td>
+                                                        <td rowspan="2">အမျိုးအမည်</td>
+                                                        <td rowspan="2">ဝယ်ယူသူအမည်</td>
+                                                        <td colspan="3">အလေးချိန်</td>
+                                                        <td colspan="3">အလျော့တွက်</td>
+                                                        <td rowspan="2">လက်ခ</td>
+                                                        <td rowspan="2" class="text-center">ကျသင့်ငွေ</td>
+
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="width">ကျပ်</td>
+                                                        <td class="width">ပဲ</td>
+                                                        <td class="width">ရွေး</td>
+                                                        <td class="width">ကျပ်</td>
+                                                        <td class="width">ပဲ</td>
+                                                        <td class="width text-center">ရွေး</td>
+                                                    </tr>
+
+
+
+                                                    </thead>
+                                                    <tbody id="history_list">
+
+                                                    </tbody>
+                                                </table>
+
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                 </div>
+
+                    </div>
+                   
+            </div>
+                
+        </div>
+            
+            
+    </div>
+
+
+<script src="js/app.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

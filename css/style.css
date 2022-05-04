@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.inputwidth{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid rgb(150, 148, 148);
+}
+.inputwidth:active{
+    border: none;
+}
+.textbox{
+    height: 50px;
+    width: 230px;
+}
+.width{
+    width: 60px;
+}
+.history {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*border-collapse: collapse;*/
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+.history td, .history th {
+    padding: 8px;
+
+    border: 5px solid white;
+
+
+}
+.history tr{
+    background: cadetblue;
+    color: white;
+
+}
+
+
+
+tr:hover {color: white;background: steelblue}
+
+.history th {
+
+    text-align: left;
+    background: #0dcaf0;
+    color: black;
+
+}
+
+.history tr td:last-child{
+
+    text-align: right;
+}
+
+.history  td:nth-child(5n){
+
+    text-align: center;
+
+}
+.history  td:nth-child(6n){
+
+    text-align: center;
+
+}
+.history  td:nth-child(7n){
+
+    text-align: center;
+
+}
+.history  td:nth-child(8n){
+
+    text-align: center;
+
+}
+.history  td:nth-child(9n){
+
+    text-align: center;
+
+}
+.history  td:nth-child(10n){
+
+    text-align: center;
+
+}
+@media screen and (max-width: 770px ) {
+   
+
+    .phone{
+        flex-direction: column;
+        text-align: center;
+      
+    }
+}
+
+
+@media screen and (max-width: 530px ) {
+
+
+}
+  
+
